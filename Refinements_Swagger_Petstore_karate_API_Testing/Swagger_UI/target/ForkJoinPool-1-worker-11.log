@@ -1,0 +1,93 @@
+18:39:15.948 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+18:39:16.330 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+18:39:17.388 request:
+1 > POST https://petstore.swagger.io/v2/store/order
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 103
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+{"id":7,"petId":1,"quantity":1,"shipDate":"2020-08-07T06:46:34.763Z","status":"placed","complete":true}
+
+18:39:19.306 response time in milliseconds: 1916.07
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Mon, 10 Aug 2020 13:09:19 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":7,"petId":1,"quantity":1,"shipDate":"2020-08-07T06:46:34.763+0000","status":"placed","complete":true}
+
+18:39:19.320 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+18:39:19.328 request:
+1 > DELETE https://petstore.swagger.io/v2/store/order/7
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+
+18:39:20.599 response time in milliseconds: 1269.90
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Mon, 10 Aug 2020 13:09:20 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"code":200,"type":"unknown","message":"7"}
+
+18:39:20.614 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+18:39:20.620 request:
+1 > POST https://petstore.swagger.io/v2/user/createWithList
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 159
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+[{"id":1,"username":"James_Anderson","firstName":"string1","lastName":"string1","email":"string1","password":"James_Anderson","phone":"string","userStatus":0}]
+
+18:39:21.940 response time in milliseconds: 1319.32
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Mon, 10 Aug 2020 13:09:21 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"code":200,"type":"unknown","message":"ok"}
+
+18:39:21.949 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+18:39:21.956 request:
+1 > GET https://petstore.swagger.io/v2/user/logout
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+
+18:39:23.230 response time in milliseconds: 1273.29
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Mon, 10 Aug 2020 13:09:23 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"code":200,"type":"unknown","message":"ok"}
+
+0224)
+1 < Transfer-Encoding: chunked
+1 < X-Expires-After: Mon Aug 10 09:30:38 UTC 2020
+1 < X-Rate-Limit: 5000
+{"code":200,"type":"unknown","message":"logged in user session:1597048238687"}
+

@@ -1,0 +1,48 @@
+17:44:01.351 >> lock acquired, begin callSingle: classpath:Addpet.feature
+17:44:03.188 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 238
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+{"id":1,"category":{"id":1,"name":"Dog"},"name":"James","photoUrls":["https://image.cnbcfm.com/api/v1/image/105992231-1561667465295gettyimages-521697453.jpeg?v=1561667497&w=740&h=416"],"tags":[{"id":0,"name":"dog1"}],"status":"available"}
+
+17:44:04.702 response time in milliseconds: 1479.79
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Tue, 11 Aug 2020 12:14:05 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":1,"category":{"id":1,"name":"Dog"},"name":"James","photoUrls":["https://image.cnbcfm.com/api/v1/image/105992231-1561667465295gettyimages-521697453.jpeg?v=1561667497&w=740&h=416"],"tags":[{"id":0,"name":"dog1"}],"status":"available"}
+
+17:44:04.763 << lock released, cached callSingle: classpath:Addpet.feature
+17:44:04.779 >> lock acquired, begin callSingle: classpath:random.js
+17:44:04.802 << lock released, cached callSingle: classpath:random.js
+17:44:04.890 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 238
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+{"id":1,"category":{"id":1,"name":"Dog"},"name":"James","photoUrls":["https://image.cnbcfm.com/api/v1/image/105992231-1561667465295gettyimages-521697453.jpeg?v=1561667497&w=740&h=416"],"tags":[{"id":0,"name":"dog1"}],"status":"available"}
+
+17:44:06.070 response time in milliseconds: 1177.99
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Tue, 11 Aug 2020 12:14:06 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":1,"category":{"id":1,"name":"Dog"},"name":"James","photoUrls":["https://image.cnbcfm.com/api/v1/image/105992231-1561667465295gettyimages-521697453.jpeg?v=1561667497&w=740&h=416"],"tags":[{"id":0,"name":"dog1"}],"status":"available"}
+
